@@ -1,0 +1,14 @@
+{
+  "name": "ut-ai-education",
+  "account_id": "c965dd0aaa185151629b0bb7adc0147b",
+  "compatibility_date": "2026-10-09",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true,
+    "traces": { "enabled": true }
+  }
+}
