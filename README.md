@@ -41,3 +41,12 @@ Workers Buildsを設定する場合:
 
 最新情報: https://www.instagram.com/ut_ai_education/
 参加フォーム: https://forms.gle/gkLQQfbvXLFWKv9V8
+
+## 写真素材
+
+ドライブ提供写真から、掲載同意が未確認のため顔・名札を含まない手元のみを切り出しています。原本は公開リポジトリに保存しません。
+
+- `learning-hands.jpg`: じゆうラボ記録写真 `P1032012.JPG`（Drive ID: `1M7VwhXPeMbjKjCAOQCDOiooKIo9CeY7x`）
+- `exploration-hands.jpg`: はっけんラボ記録写真 `IMG_8072.JPG`（Drive ID: `1cfhIOsu8DvFSg4NoF8J2JZNwDrlbJQWs`）
+
+現場の学びを伝えるイメージ写真として使用しています。ゼミの実施記録を示すキャプションは付けていません。JPEGとして軽量化し、EXIFを削除済みです。
