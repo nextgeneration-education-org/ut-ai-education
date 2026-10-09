@@ -16,8 +16,10 @@ npm run check
 
 - Worker: `ut-ai-education`
 - Account: `nextgeneration-education`
-- 公開予定URL: https://ut-ai-education.nextgeneration-education.workers.dev/
+- 公開URL: https://ut-ai-education.nextgeneration-education.workers.dev/
 - 配信ディレクトリ: `public`
+
+初回は2026年10月9日にCloudflareダッシュボードから静的ファイルを直接アップロードして登録しました。Git自動ビルド連携は未設定です。
 
 対象アカウントで認証後、`npm run deploy` で配信します。ダッシュボードから `public` の内容をアップロードする方法でも登録できます。
 
