@@ -7,30 +7,24 @@
 ```sh
 npm ci
 npm run dev
-npm run check
 ```
 
 掲載内容は `public/index.html` を編集します。FAQは標準の `<details>` で開閉します。
 
-## Cloudflare Workers
+## Cloudflare Pages
 
-- Worker: `ut-ai-education`
-- Account: `nextgeneration-education`
-- 公開URL: https://ut-ai-education.nextgeneration-education.workers.dev/
-- 配信ディレクトリ: `public`
-
-初回は2026年10月9日にCloudflareダッシュボードから静的ファイルを直接アップロードして登録しました。Git自動ビルド連携は未設定です。
-
-対象アカウントで認証後、`npm run deploy` で配信します。ダッシュボードから `public` の内容をアップロードする方法でも登録できます。
-
-Workers Buildsを設定する場合:
-
+- Project: `ut-ai-education`
+- 公開URL: https://ut-ai-education.pages.dev/
 - GitHub: `nextgeneration-education-org/ut-ai-education`
-- Branch: `main`
-- Root directory: `/`
+- Production branch: `main`
+- Framework: なし
 - Build command: 空欄（ビルド不要）
-- Deploy command: `npm run deploy`
-- Preview command: `npx wrangler versions upload`
+- Build output directory: `public`
+
+`main` へのpushでCloudflare Pagesに自動デプロイされます。
+CLIから直接配信する場合は、対象Cloudflareアカウントで認証後に `npm run deploy` を使います。
+
+2026年10月9日にWorkersからPagesへ公開先を移しました。
 
 ## 掲載情報
 
